@@ -1,0 +1,206 @@
+
+
+.container{
+    margin-top:30px;
+  
+}
+
+
+h3{
+    text-align: center;
+    margin-top: 4%;
+
+margin-bottom: 3%;
+}
+
+
+
+.imagenlogo{
+    
+    width: 45%;
+}
+.logo img{
+    width: 85%;
+    margin-left:35px;
+}
+
+.aboutus img{
+    width: 85%;
+    
+    
+}
+#buscar a{ 
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background-image: url("./imagenes/fondo.jpg");
+    
+}
+
+.principal{
+    
+    background-color:lightgreen;
+}
+
+
+
+.principal .btn{ 
+    text-align:center;
+    
+    
+}
+
+
+.fila1juegos{
+    
+    border: outset 4px green;
+    margin-left:20px;
+    padding: 3%;
+}
+
+.fila1juegos img{
+    margin-top:20px;
+    padding:5px;
+    display: block;
+    
+}
+
+.fila2juegos{
+    
+    border: outset 4px green;
+    margin-left:20px;
+    padding: 3%;
+}
+
+.fila2juegos img{
+    
+    margin-top:30px;
+    margin-left:10px;
+    display: block;
+  
+}
+
+
+
+.fila3juegos{
+    
+    border: outset 4px green;
+    margin-left:20px;
+    margin-bottom: 10%;
+    padding: 3%;
+    text-align: center;
+}
+
+.fila3juegos img{
+    padding:10px;
+    
+}
+
+
+.buscador{
+    
+    margin-top:25%;
+    text-align: center;
+}
+
+.buscador .podcast{
+   padding:3%;
+}
+
+.buscador h5{
+    margin-top:30px;
+}
+
+.buscador3{
+    margin-top:56%;
+}
+
+.buscador3 a{
+   color:white;
+}
+
+label{
+   
+    font-weight: bold;
+}
+
+.dropdown-menu{
+    max-height: 100px; 
+    overflow-y: auto;
+}
+
+.dropdown-item{
+    max-width: 250px;
+}
+
+.dropdown-menu1{
+    max-height: 100px; 
+    overflow-y: auto;
+}
+
+.modal-content{
+    border: 6px groove;
+    border-color:green;
+    background-color:lightgreen
+}
+
+.modal-title{
+    font-weight:bold;
+    margin-left:30px;
+}
+
+.modal-content p{
+    font-style:italic;
+}
+
+a{
+    text-decoration: none
+}
+
+#datosjuego{
+    text-align: center;
+    background-color: lightgreen;
+    width:500px;
+    margin: 0 auto;
+   
+}
+
+.nombre{
+    font-weight:bold;
+}
+
+.editorial{
+    font-style: italic;
+}
+
+.descripcion{
+    text-align: justify;
+}
+
+.imagenjuego{
+    border: 5px inset green;
+}
+
+.bodypagina3{
+    background-color: lightgreen;
+}
+
+.bodypagina3 h3{
+    font-weight:bold;
+    font-style: italic;
+    
+}
+
+.bodypagina3 .titulopagina3{
+    margin:0 auto;
+}
+.bodypagina3 p{
+    margin-top:4%;
+    font-family: 'Cinzel', serif;
+}
+
+.nombretienda{
+    font-weight:bold;
+}
