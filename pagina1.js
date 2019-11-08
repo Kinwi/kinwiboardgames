@@ -253,6 +253,14 @@ boton.addEventListener('click', function () {
                 
                 myJson.games[i].rules_url;
                 cajaelementos1.appendChild(reglas);
+
+                // Elemento like
+
+                let like = document.createElement('button');
+                like.setAttribute('class', 'like');
+                like.innerHTML = '<i class="far fa-thumbs-up"></i>'
+                
+
                 
                 //Foto 
                 
@@ -287,21 +295,19 @@ boton.addEventListener('click', function () {
 //UTILIZACION DE LOCALSTORAGE Y SESSIONSTORAGE PARA GUARDAR Y OBTENER DATOS (BOTON "Ver Busquedas Anteriores")
 
 // Cogemos los Ids : boton, titulo,
-juegosalmacenados = JSON.parse(localStorage.getItem("juegos"));
-console.log(juegosalmacenados);
-let botonpreferecias = document.getElementById('botonpreferencias');
-let titulo = document.getElementById("titulopreferencias");
-let cajainformacion = document.getElementById("informacion");
-let listadopreferencias = document.getElementsByClassName("listadopreferencias");
-//Creamos el titulo 
-let hijosCaja = $('#informacion p');
-console.log(hijosCaja);
 
-titulo.innerHTML = "Preferencias de Usuaro";
+//Creamos el titulo 
+
+
 function RellenarModal() {
+    let cajainformacion = document.getElementById("informacion");
+    let titulo = document.getElementById("titulopreferencias");
+    titulo.innerHTML = "Preferencias de Usuaro";
+    juegosalmacenados = JSON.parse(localStorage.getItem("juegos"));
+    let hijosCaja = $('#informacion p');
     if (hijosCaja.length > 0) {
         $('#informacion p').each(function (parrafo) {
-            parrafo.remove();
+            $(this).remove();
         })
     }
     for (let x = 0; x < juegosalmacenados.length; x ++) {
